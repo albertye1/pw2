@@ -1,38 +1,82 @@
+/* get tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.albert {
+  border-radius: 100px;
+}
+
 .App {
+  background-color: theme('colors.light-bg');
+  color: theme('colors.dark-hl');
+}
+
+.App-dark {
+  background-color: theme('colors.dark-bg');
+  background-image: linear-gradient(theme('colors.dark-bg'), theme('colors.darker-bg'));
+  color: theme('colors.light-hl');
+}
+
+.centered {
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-long-page {
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@layer components {
+  .card {
+    transition: all 0.5s;
+    max-width: 750px;
+    border-radius: theme('borderRadius.lg');
+    border-width: 2px;
+    cursor: pointer;
+    text-align: left;
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.2xl');
+    margin: 15px;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .card:hover {
+    background-color: theme('colors.light-hl');
+    border-color: theme('colors.light-hl');
+    color: theme('colors.light-acc');
   }
-  to {
-    transform: rotate(360deg);
+
+  .card-dark {
+    transition: all 0.5s;
+    max-width: 750px;
+    border-radius: theme('borderRadius.lg');
+    border-width: 2px;
+    cursor: pointer;
+    text-align: left;
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.2xl');
+    margin: 15px;
+    background-color: theme('colors.dark-bg');
+    border-color: theme('colors.light-hl');
+    color: theme('colors.light-hl');
   }
+
+  .card-dark:hover {
+    background-color: theme('colors.dark-hl');
+    border-color: theme('colors.dark-acc');
+    color: theme('colors.dark-acc');
+  }
+  /* ... */
 }
