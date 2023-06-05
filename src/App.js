@@ -4,8 +4,8 @@ import './App.css';
 
 function App() {
   return (
-    <html class="light">
-    <div className="App">
+    <html class="dark">
+    <div className="App-dark">
       {/* header, with photo and name and maybe summaries */}
       <header className="App-page centered" id="top">
         <p className="text-2xl text-light-bg">Hi! I'm</p>
@@ -48,7 +48,7 @@ function App() {
           from-sky-400 to-blue-800 font-bold underline">Projects</h1>
         <br/>
         <a href="https://github.com/albertye1/stegosaurus">
-        <div class="card">
+        <div class="card-dark">
           <p className="text-2xl">PNG Encoder</p>
           <p className="text-xl">A command-line program that encodes and decodes messages from chunks of a PNG file.</p>
             <div class="pt-4 pb-2">
@@ -57,7 +57,7 @@ function App() {
         </div>
         </a>
         <a href="https://github.com/xyzyzl/hard-cp">
-          <div class="card">
+          <div class="card-dark">
             <p className="text-2xl">Competitive Programming</p>
             <p className="text-xl">
               Repository of solution code for coding competitions. Organized by website, 
@@ -70,7 +70,7 @@ function App() {
           </div>
         </a>
         <a href="https://github.com/wlmchen/learn.theyei">
-          <div class="card">
+          <div class="card-dark">
             <p className="text-2xl">YEI Learn</p>
             <p className="text-xl">Slideshows and example problems covering AP Microeconomics 
               and AP Macroeconomics content, all conveniently organized into a website.</p>
