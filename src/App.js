@@ -111,7 +111,7 @@ function App() {
             <br />
             <p className="text-3xl text-darker-bg dark:text-light-bg">Summer 2023</p>
             <ul className="text-xl">
-              <li>Math 113: Abstract Algebra</li>
+              <li>Math 104: Introduction to Analysis</li>
               <li>Math 49: Differential Equations</li>
             </ul>
             <br />
@@ -132,11 +132,10 @@ function App() {
             <p className="text-3xl text-darker-bg dark:text-light-bg">Dual Enrollment</p>
             <ul className="text-xl">
               <li>Math 004A: Intermediate Calculus (equiv. to Math 53) (A)</li>
-              <li>Math 004A: Linear Algebra (equiv. to Math 56) (A)</li>
+              <li>Math 004C: Linear Algebra (equiv. to Math 56) (A)</li>
             </ul>
           </div>
         </div>
-        <br/>
       </div>
       <UpButton/>
     </div>

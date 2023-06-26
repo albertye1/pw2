@@ -7,6 +7,10 @@
   border-radius: 100px;
 }
 
+body {
+  background-color: theme('colors.darker-bg');
+}
+
 .App {
   background-color: theme('colors.light-bg');
   color: theme('colors.dark-hl');
