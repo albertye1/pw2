@@ -55,6 +55,15 @@ function App() {
               <Tag content={"Rust"} />
             </div>
         </div>
+        <a href="https://www.youtube.com/watch?v=0b9HQfmmBg0">
+        <div class="card-dark">
+          <p className="text-2xl">Build Your Own World</p>
+          <p className="text-xl">A game with pseudorandom world generation that a partner and I built for a class (CS61B).</p>
+            <div class="pt-4 pb-2">
+              <Tag content={"Java"} />
+              <Tag content={"DS/Algos"} />
+            </div>
+        </div>
         </a>
         <a href="https://github.com/xyzyzl/hard-cp">
           <div class="card-dark">
