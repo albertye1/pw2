@@ -73,13 +73,13 @@ body {
     box-shadow: theme('boxShadow.2xl');
     margin: 15px;
     background-color: theme('colors.dark-bg');
-    border-color: theme('colors.light-hl');
+    border-color: theme('colors.dark-hl');
     color: theme('colors.light-hl');
   }
 
   .card-dark:hover {
     background-color: theme('colors.dark-hl');
-    border-color: theme('colors.dark-acc');
+    border-color: theme('colors.neutral');
     color: theme('colors.dark-acc');
   }
   /* ... */
