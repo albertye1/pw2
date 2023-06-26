@@ -134,7 +134,6 @@ function App() {
               <li>Math 004A: Linear Algebra (equiv. to Math 56) (A)</li>
             </ul>
           </div>
-          <div class="basis-1/6"></div>
         </div>
         <br/>
       </div>
