@@ -8,6 +8,7 @@ module.exports = {
         'light-bg': 'rgb(226 232 240)',
         'light-hl': '#cbd5e1',
         'light-acc': '#3b82f6',
+		'neutral': 'rgb(100 116 139)',
         'dark-bg': '#1e293b',
         'darker-bg': '#0f172a',
         'dark-hl': '#334155',
