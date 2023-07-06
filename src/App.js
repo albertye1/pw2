@@ -47,6 +47,15 @@ function App() {
         <h1 className="centered text-6xl text-transparent bg-clip-text bg-gradient-to-br
           from-sky-400 to-blue-800 font-bold underline">Projects</h1>
         <br/>
+        <a href="https://github.com/albertye1/unboxing">
+        <div class="card-dark">
+          <p className="text-2xl">OpenGL Playground</p>
+          <p className="text-xl">Interactively teaching myself OpenGL. Notes will be put into the README soon.</p>
+            <div class="pt-4 pb-2">
+              <Tag content={"C++"} />
+              <Tag content={"OpenGL"} />
+            </div>
+        </div>
         <a href="https://github.com/albertye1/stegosaurus">
         <div class="card-dark">
           <p className="text-2xl">PNG Encoder</p>
