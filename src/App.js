@@ -56,6 +56,7 @@ function App() {
               <Tag content={"OpenGL"} />
             </div>
         </div>
+	  	</a>
         <a href="https://github.com/albertye1/stegosaurus">
         <div class="card-dark">
           <p className="text-2xl">PNG Encoder</p>
