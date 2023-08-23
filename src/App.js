@@ -121,8 +121,7 @@ function App() {
             <br />
             <p className="text-3xl text-darker-bg dark:text-light-bg">Summer 2023</p>
             <ul className="text-xl">
-              <li>Math 104: Introduction to Analysis</li>
-              <li>Math 49: Differential Equations</li>
+              <li>Math 104: Introduction to Analysis (A)</li>
             </ul>
             <br />
             <p className="text-3xl text-darker-bg dark:text-light-bg">Spring 2023</p>
