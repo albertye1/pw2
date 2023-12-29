@@ -48,7 +48,7 @@ function App() {
         <a href="https://github.com/albertye1/wechat_chigua/tree/main">
         <div class="card-dark">
           <p className="text-2xl">Suika Game</p>
-          <p className="text-xl">Worked with a friend to recreate the popular Suika Game in Rust with Bevy.</p>
+          <p className="text-xl">Worked with a friend to recreate the popular Suika Game in Rust with Bevy. Created the physics engine from scratch.</p>
             <div class="pt-4 pb-2">
               <Tag content={"Rust"} />
               <Tag content={"Bevy"} />
