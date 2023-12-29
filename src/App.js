@@ -55,10 +55,6 @@ function App() {
             </div>
         </div>
 	  	</a>
-      <div className="App-long-page centered" id="projects">
-        <h1 className="centered text-6xl text-transparent bg-clip-text bg-gradient-to-br
-          from-sky-400 to-blue-800 font-bold underline">Projects</h1>
-        <br/>
         <a href="https://github.com/albertye1/unboxing">
         <div class="card-dark">
           <p className="text-2xl">OpenGL Playground</p>
