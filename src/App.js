@@ -28,12 +28,8 @@ function App() {
           <div class="basis-1/6" />
           <div class="basis-2/3">
             <p className="text-xl">I'm a sophomore at UC Berkeley interested in
-            data structures and algorithms. You can find my resume 
+            theory and systems programming. You can find my resume 
             <a className="text-transparent bg-clip-text bg-gradient-to-b from-emerald-200 to-sky-700" href="https://drive.proton.me/urls/SQWPGB9P9R#AtcKtBOInBL7"> here</a>. 
-            <br /> <br />
-            Recently, I have been learning more about frontend web development and systems programming, 
-            starting projects in both areas.
-            These projects are listed down below.
             </p>
           </div>
           <div class="basis-1/6" />
@@ -43,6 +39,20 @@ function App() {
       </div>
 
       {/* projects */}
+      <div className="App-long-page centered" id="projects">
+        <h1 className="centered text-6xl text-transparent bg-clip-text bg-gradient-to-br
+          from-sky-400 to-blue-800 font-bold underline">Projects</h1>
+        <br/>
+        <a href="https://github.com/albertye1/wechat_chigua/tree/main">
+        <div class="card-dark">
+          <p className="text-2xl">Suika Game</p>
+          <p className="text-xl">Worked with a friend to recreate the popular Suika Game in Rust with Bevy.</p>
+            <div class="pt-4 pb-2">
+              <Tag content={"Rust"} />
+              <Tag content={"Bevy"} />
+            </div>
+        </div>
+	  	</a>
       <div className="App-long-page centered" id="projects">
         <h1 className="centered text-6xl text-transparent bg-clip-text bg-gradient-to-br
           from-sky-400 to-blue-800 font-bold underline">Projects</h1>
@@ -76,19 +86,6 @@ function App() {
             </div>
         </div>
         </a>
-        <a href="https://github.com/xyzyzl/hard-cp">
-          <div class="card-dark">
-            <p className="text-2xl">Competitive Programming</p>
-            <p className="text-xl">
-              Repository of solution code for coding competitions. Organized by website, 
-              then by contest, then by problem.</p>
-            <div class="pt-4 pb-2">
-              <Tag content={"C++"} />
-              <Tag content={"Java"} />
-              <Tag content={"DS/Algos"} />
-            </div>
-          </div>
-        </a>
         <a href="https://github.com/wlmchen/learn.theyei">
           <div class="card-dark">
             <p className="text-2xl">YEI Learn</p>
@@ -115,8 +112,8 @@ function App() {
           <div class="basis-2/3">
             <p className="text-3xl text-darker-bg dark:text-light-bg">Fall 2023</p>
             <ul className="text-xl">
-              <li>EECS 126: Probability and Random Processes</li>
-              <li>CS 161: Computer Security</li>
+              <li>EECS 126: Probability and Random Processes (A)</li>
+              <li>CS 161: Computer Security (A)</li>
             </ul>
             <br />
             <p className="text-3xl text-darker-bg dark:text-light-bg">Summer 2023</p>
