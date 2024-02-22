@@ -27,7 +27,7 @@ function App() {
         <div className="flex flex-row">
           <div class="basis-1/6" />
           <div class="basis-2/3">
-            <p className="text-xl">I'm a sophomore at UC Berkeley interested in
+            <p className="text-xl">I'm a sophomore at UC Berkeley and incoming Amazon SDE summer intern interested in
             theory and systems programming. You can find my resume 
             <a className="text-transparent bg-clip-text bg-gradient-to-b from-emerald-200 to-sky-700" href="https://drive.proton.me/urls/SQWPGB9P9R#AtcKtBOInBL7"> here</a>. 
 	  		<br/> <br/>
@@ -108,11 +108,16 @@ function App() {
         <div className="flex flex-row">
           <div class="basis-1/6"></div>
           <div class="basis-2/3">
+          <p className="text-3xl text-darker-bg dark:text-light-bg">Fall 2023</p>
+            <ul className="text-xl">
+              <li>CS 152: Computer Architecture and Engineering</li>
+              <li>CS 164: Programming Languages and Compilers</li>
+            </ul>
             <p className="text-3xl text-darker-bg dark:text-light-bg">Fall 2023</p>
             <ul className="text-xl">
               <li>EECS 126: Probability and Random Processes (A)</li>
               <li>CS 161: Computer Security (A)</li>
-	  		  <li>CS 198-008: Linux System Admin (P)</li>
+	  		      <li>CS 198-008: Linux System Administration (P)</li>
             </ul>
             <br />
             <p className="text-3xl text-darker-bg dark:text-light-bg">Summer 2023</p>
