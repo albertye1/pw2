@@ -3,14 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap')
-
 .albert {
   border-radius: 100px;
 }
 
 body {
-  font-family: "Fredoka", sans-serif;
   background-color: theme('colors.darker-bg');
 }
 

@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+/** @type {import url(https://fonts.googleapis.com/css?family=Inter&subset=latin,latin-ext)} */
+/** @type {import url(https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap)} */
+/** @type {import url(https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap)} */
 module.exports = {
   darkMode: 'class',
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -15,8 +18,7 @@ module.exports = {
         'dark-acc': '#bae6fd',
       },
       fontFamily: {
-        sans: ['Open Sans', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
+        'sans': ['Albert Sans', 'Lexend', 'sans-serif'],
       },
     },
   },

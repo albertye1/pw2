@@ -108,11 +108,12 @@ function App() {
         <div className="flex flex-row">
           <div class="basis-1/6"></div>
           <div class="basis-2/3">
-          <p className="text-3xl text-darker-bg dark:text-light-bg">Fall 2023</p>
+          <p className="text-3xl text-darker-bg dark:text-light-bg">Spring 2024</p>
             <ul className="text-xl">
               <li>CS 152: Computer Architecture and Engineering</li>
               <li>CS 164: Programming Languages and Compilers</li>
             </ul>
+            <br />
             <p className="text-3xl text-darker-bg dark:text-light-bg">Fall 2023</p>
             <ul className="text-xl">
               <li>EECS 126: Probability and Random Processes (A)</li>
