@@ -21,6 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 # the fucking vscode, if exists
 .vscode
+=======
+>>>>>>> 13b184af1ea20171aebd5c4746b4f7d560c55b9f
