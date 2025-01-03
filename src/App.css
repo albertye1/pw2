@@ -1,5 +1,23 @@
 .App {
-  text-align: center;
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #eee8d5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(2vmin);
+  color: #002b36;
+}
+
+.App-header {
+  margin: 30px;
+}
+
+.Navbar.Brand {
+  font-size: calc(10px + 2vmin);
 }
 
 .App-logo {
@@ -13,19 +31,9 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
-  color: #61dafb;
+  color: #6c71c4;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
