@@ -1,6 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Container, Col, Nav, Navbar, Row, Image } from 'react-bootstrap';
+import { Container, Col, Nav, Navbar, NavbarBrand, Row, Image } from 'react-bootstrap';
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import Home from './pages/Home';
+import Friends from './pages/Friends';
+import Projects from './pages/Projects';
+import Blog from './pages/Blog';
 
 function greet() {
   const hour = new Date().getHours();
@@ -17,42 +22,28 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Navbar expand="lg">
-        <Container>
-          <Navbar.Brand href="/"><b>Albert Ye</b></Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link href="/">home</Nav.Link>
-              <Nav.Link href="/">projects</Nav.Link>
-              <Nav.Link href="/">resume</Nav.Link>
-            </Nav>
-        </Container>
-      </Navbar>
+        <Router>
+          <Navbar>
+            <Container>
+              <NavbarBrand href="/"><b>Albert Ye</b></NavbarBrand>
+                <Nav className="App-nav">
+                  <Nav.Link href="/">home</Nav.Link>
+                  <Nav.Link href="resume.pdf">resume</Nav.Link>
+                  <Nav.Link href="/projects">projects</Nav.Link>
+                  <Nav.Link href="/friends">friends</Nav.Link>
+                  <Nav.Link href="/blog">yapping</Nav.Link>
+                </Nav>
+            </Container>
+          </Navbar>
+          <br/>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/friends" element={<Friends />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/blog" element={<Blog />} />
+          </Routes>
+        </Router>
       </header>
-      <Container>
-        <Row>
-          <Col xs = {9}>
-            <h2>About Me</h2>
-            <p>
-              Good {greet()}! I'm Albert. I'm currently studying CS @ Berkeley. I also interned at Amazon and was on course staff for two upper-divison Berkeley classes:
-              CS 164 (compilers) and CS 170 (algorithms).
-              <br/>
-              <br/>
-              At Berkeley, I've been involved in the <a href="https://ocf.io">Open Computing Facility</a> and have developed problems 
-              for <a href="https://calico.cs.berkeley.edu">CALICO</a> and <a href="https://berkeley.mt">BMT</a>.
-            </p>
-          </Col>
-          <Col><Image src="eevee.jpg" roundedCircle fluid/></Col>
-        </Row>
-        <Row>
-          <h2>Featured Projects</h2>
-          <p>
-            Here are some of the coding projects I've done:
-            <br/>
-            <br/>
-            <a href = "https://suika.aly.sh">Physics Engine</a>: Developed a clone of Suika game with a custom physics engine in Rust using the Bevy framework, ported to the web via wasm.
-          </p>
-        </Row>
-      </Container>
     </div>
   );
 }
