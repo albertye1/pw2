@@ -7,21 +7,10 @@ import Friends from './pages/Friends';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 
-function greet() {
-  const hour = new Date().getHours();
-  if (hour >= 5 && hour < 12) {
-    return "morning";
-  } else if (hour >= 12 && hour < 18) {
-    return "afternoon";
-  } else {
-    return "evening";
-  }
-}
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <Router>
           <Navbar>
             <Container>
@@ -43,7 +32,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
           </Routes>
         </Router>
-      </header>
+      </div>
     </div>
   );
 }

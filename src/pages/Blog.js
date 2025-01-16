@@ -7,8 +7,13 @@ function Blog() {
       <Container>
         <Row>
           <Col>
-          <h2>yapping has not been invented yet. check back later</h2>
-          <p>or not. idc </p>
+          <h2>Unhinged Rambling Collection</h2>
+          <br />
+          <h3>hello</h3>
+          <p>
+            I should definitely try blogging again. 
+            Will prolly want to set up a backend for this as well so I'm not just writing things on a literal webpage
+          </p>
           </Col>
         </Row>
       </Container>

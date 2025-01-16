@@ -1,5 +1,5 @@
 .App {
-  font-family: 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   background-color: #eee8d5;
@@ -10,14 +10,17 @@
   justify-content: top;
   font-size: calc(2vmin);
   color: #002b36;
+  transition: 0.5s;
 }
 
 p {
-  font-family: 'Frutiger';
+  font-family: 'Cabin';
 }
 
 .App-header {
-  margin: 30px;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .Navbar.Brand {
