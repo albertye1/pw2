@@ -22,6 +22,9 @@ function Friends() {
             <p>
               Spotify: <a href="https://open.spotify.com/user/ptyfxpqz6p33l4mtak1bn3s0p" className="App-link">aly</a>
             </p>
+            <p>
+              Email: aye [at] berkeley [dot] edu
+            </p>
           </Col>
           <Col><Image src="sylveon.jpg" roundedCircle fluid/> <br/> <br/></Col>
         </Row>
