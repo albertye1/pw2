@@ -9,7 +9,13 @@ function Friends() {
           <Col xs = {9}>
             <h2>Friends' Websites</h2>
             <p>
-                <a className="App-link" href="https://michaellisano.com">Michael Lisano</a>, <a className="App-link" href="https://billmao.net">Bill Mao</a>, <a className="App-link" href="https://trinityjchung.com">Trinity Chung</a>, <a className="App-link" href="https://oliver.ni">Oliver Ni</a>, <a className="App-link" href="https://ethanwu.dev">Ethan Wu</a>, <a className="App-link" href="https://joewang.me">Joe Wang</a>
+                <a className="App-link" href="https://michaellisano.com">Michael Lisano</a>, 
+                <a className="App-link" href="https://billmao.net">Bill Mao</a>, 
+                <a className="App-link" href="https://trinityjchung.com">Trinity Chung</a>, 
+                <a className="App-link" href="https://oliver.ni">Oliver Ni</a>, 
+                <a className="App-link" href="https://ethanwu.dev">Ethan Wu</a>, 
+                <a className="App-link" href="https://joewang.me">Joe Wang</a>
+                <a className="App-link" href="https://koizura.me">Raine Koizumi</a>
             </p>
 
             <h2>Socials</h2>
